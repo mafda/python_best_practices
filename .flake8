@@ -1,0 +1,2 @@
+[flake8]
+extended-ignore = E203
