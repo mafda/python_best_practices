@@ -22,8 +22,8 @@ guidelines and best practices suggestions on how to write Python code.
 ### Clone this repository
 
 ```shell
-(base)$: git clone 
-(base)$: cd python-best-practices 
+(base)$: git clone git@github.com:mafda/python_best_practices.git
+(base)$: cd python_best_practices 
 ```
 
 ### Configure environment
