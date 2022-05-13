@@ -1,13 +1,17 @@
 # Python Best Practices
 
+**How to make your code shine with isort, Black, Flake8 and Pylint?** 
+
+In this repository, I would like to show some guidelines and best practice tips on how to write Python code.
+
 We can use a simple deck of programs to get our [code
 styling](https://medium.com/semantixbr/how-to-make-your-code-shine-with-gitlab-ci-pipelines-48ade99192d1)
-done. We can use isort for sorting the library imports (yes, imports have a
-suggested order), we can check the existence of undesired artifacts using Flake8
-and Pylint, and keep the code within the same style using Black.
+done. We can use **isort** for sorting the library imports (yes, imports have a
+suggested order), we can check the existence of undesired artifacts using **Flake8**
+and **Pylint**, and keep the code within the same style using **Black**.
 
 Those tools can be configured to be [PEP8](https://peps.python.org/pep-0008/)
-compliant. PEP8 — Python Enhancement Proposal, is a style guide that provides
+compliant. **PEP8 — Python Enhancement Proposal**, is a style guide that provides
 guidelines and best practices suggestions on how to write Python code.
 
 ## Python tools
