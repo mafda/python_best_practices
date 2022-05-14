@@ -62,13 +62,23 @@ provides guidelines and best practices suggestions on how to write Python code.
 
 You could use `isort .` or `isort . --check-only`
 
+![isort](assets/isort.gif)
+
 ### Black
 
 You could use `black --line-length 79 .` or `black --line-length 79 --check .`
 
+![black](assets/black.gif)
+
 ### Flake8
 
 You could use `flake8 .`
+
+![flake8](assets/flake8.gif)
+
+Fix errors:
+
+![flake8](assets/complete.gif)
 
 ### PyLint
 
