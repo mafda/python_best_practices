@@ -37,24 +37,26 @@ provides guidelines and best practices suggestions on how to write Python code.
 - Create the conda environment
 
 ```shell
-(base)$: conda env create -f environment-dev.yml
-```
-
-- Or update with **development dependencies**
-
-```shell
-(base)$: conda env update -n your-project -f environment-dev.yml
+(base)$: conda env create -f environment.yml
 ```
 
 - Activate the environment
 
 ```shell
-(base)$: conda activate best-practices
+(base)$: conda activate linear-regression
 ```
 
-## Use tools and clean your code!
+- And run
 
 ```shell
+(linear-regression)$: sh pep8.sh
+```
+
+## Use these tools in your project and clean your code!
+
+```shell
+(base)$: conda env create -f environment-dev.yml
+(base)$: conda activate best-practices
 (best-practices)$: cd your-project
 ```
 
